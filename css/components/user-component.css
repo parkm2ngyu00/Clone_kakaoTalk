@@ -24,6 +24,7 @@
     margin-top: 8px;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
+    display: flex;
 }
 
 .user-component__avatar--xl {
@@ -58,4 +59,9 @@
     margin-bottom: 10px;
     display: block;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__notice {
+    color: red;
+    margin-left: 5px;
 }
