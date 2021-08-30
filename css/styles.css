@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alternative-screen-header.css";
+@import "components/no-mobile.css";
 
 /* screens */
 @import "screens/login.css";
@@ -20,11 +21,9 @@
 @import "screens/chat.css";
 
 body {
-    font-family: "Open Sans", sans-serif;
-  }
+  font-family: "Open Sans", sans-serif;
+}
 
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
-
-  
