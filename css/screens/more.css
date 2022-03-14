@@ -1,15 +1,14 @@
 .more-user-component {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .more-suggestions {
-    margin-top: 50px;
-    border-top: var(--main-border);
-    padding-top: 40px;
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
 }
 
 .more-suggestions__title {
-    font-weight: 600;
-    margin-bottom: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
-

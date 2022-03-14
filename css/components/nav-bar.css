@@ -1,62 +1,61 @@
 .nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #F9F9FA;
-    padding: 20px 50px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .nav__list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__btn {
-    position: relative;
-    color: #2e363e;
+  position: relative;
+  color: #2e363e;
 }
-
 
 @keyframes notoficationAnimation {
-    0% {
-        transform: none;
-    }
-    50% {
-        transform: translateY(-5px);
-    }
-    100% {
-        transform: none;
-    }
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+  }
 }
 
-.nav__btn:hover{
-    animation: notoficationAnimation 1s ease-in-out infinite;
+.nav__btn:hover {
+  animation: notoficationAnimation 1s ease-in-out infinite;
 }
 
 .nav__notification {
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
-    animation: notoficationAnimation 2s ease-in-out infinite;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  animation: notoficationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notification--dot {
-    display: flex;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    background-color: tomato;
-    position: absolute;
-    /* right: -2px; */
+  display: flex;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: tomato;
+  position: absolute;
+  /* right: -2px; */
 }
 
 .nav__notification--dot--setting {
-    right: -2px;
+  right: -2px;
 }
 
 .nav__notification--dot--header {
-    top: 40px;
-    right: 15px;
+  top: 40px;
+  right: 15px;
 }
